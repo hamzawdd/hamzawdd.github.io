@@ -1,1 +1,113 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"/><title>Static React Demo</title><link href="https://npmcdn.com/basscss-basic@1.0.0/index.css" rel="stylesheet"/><link href="https://npmcdn.com/basscss@8.0.0/css/basscss.min.css" rel="stylesheet"/><meta name="viewport" content="width=device-width, initial-scale=1"/></head><body class="px3"><header class="py3"><h1>Hello</h1></header><main class="py4"><img src="http://lorempixel.com/256/256/cats/" alt="Kitten"/></main><footer class="py3"><p>© 2016 Brent Jackson</p></footer></body></html>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Barbell at Berkeley</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/app.min.css">
+  </head>
+  <body>
+    
+    <!--
+    The recommended approach in React is to use a container
+    dive to load your react code into, rather than using `document.body`.
+    
+    This can be any element or tag name, just don't use `document.body`
+    if you can avoid it.
+    -->
+    <nav class="navbar">
+    	<div class="navbarContainer">
+    		<div class="navbarHeader" onclick= "window.location.reload()">
+		        Barbell at Berkeley
+	        </div>
+	        <ul class="navbarItemContainer">
+	            <li class="navItem">
+	                <a href="#events-section">
+	                    Events
+	                </a>
+	            </li>
+	            <li class="navItem">
+	                <a href="#team-section">
+	                    Team
+	                </a>
+	            </li>
+                <li class="navItem">
+                    <a href="#sponsors-section">
+                        Sponsors
+                    </a>
+                </li>
+	            <li class="navItem">
+	                <a href="#contact-section">
+	                    Contact
+	                </a>
+	            </li>
+	        </ul>
+        </div>
+    </nav>
+    <div class="landingSection">
+        <div class="landingImgContainer">
+            <img class="img-scaled-wh fit-cover" src="assets/img/edward.jpg">
+        </div>
+        <div class="aboutSection">
+            <div class="center-content">
+                <div class="aboutContent">
+                    <div class="aboutHeader">
+                        Barbell at Berkeley
+                    </div>
+                    <div class="aboutSubheader">
+                        The only powerlifting and olympic weightlifting club on campus
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="team-section">
+        <div class="sectionHeader">
+            The Team
+        </div>
+        <div id="team">
+        </div>
+    </div>
+    <div class="section" id="events-section">
+        <div class="sectionHeader">
+            Club Events
+        </div>
+        <iframe src="https://calendar.google.com/calendar/embed?src=ku25j2po33qtko6cf8pchfkrv0%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="600" height="400" frameborder="0" scrolling="no" class="eventsCalendar"></iframe>
+    </div>
+    <div class="section" id="sponsors-section">
+        <div class="sectionHeader">
+            Sponsors
+        </div>
+        <div id="sponsors">
+        </div>
+    </div>
+    <div class="section" id="contact-section">
+        <div class="sectionHeader">
+            Contact
+        </div>
+        <div id="contact">
+        </div>
+    </div>
+    <!--
+    For ease of use, we are including the React, ReactDOM and Babel CDN
+    builds to make getting started as fast as possible.
+    
+    In production, you'll want to instead look at using something 
+    like Gulp, Grunt or WebPack (my personal recommendation) 
+    to compile JSX into JavaScript. Also, check out:
+    http://facebook.github.io/react/docs/tooling-integration.html
+    -->
+    <script src="https://fb.me/react-15.0.1.js"></script>
+    <script src="https://fb.me/react-dom-15.0.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    
+    <!--
+    This is where you link to your React code. Can be .js or .jsx 
+    extension, doesn't really matter.
+    -->
+    <script src="components/team.jsx" type="text/babel"></script>
+    <script src="components/sponsors.jsx" type="text/babel"></script>
+    <script src="components/contact.jsx" type="text/babel"></script>
+  </body>
+</html>
