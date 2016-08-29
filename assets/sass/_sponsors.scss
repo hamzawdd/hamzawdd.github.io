@@ -1,8 +1,12 @@
 #sponsors {
 	@include containerSpacing;
+	@include clearAfter;
 	text-align: center;
 	display: block;
-	@include clearAfter;
+}
+
+#sponsors-section {
+	@include altBackground;
 }
 
 .sponsorCard {
@@ -15,6 +19,6 @@
 	margin: 0 auto;
 }
 
-#citadel {
+.sponsorImg {
 	margin-top: 15px;
 }

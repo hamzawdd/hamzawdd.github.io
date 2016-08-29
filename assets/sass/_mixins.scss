@@ -20,3 +20,7 @@
 	-webkit-align-items: center;
 	height: 100%;
 }
+
+@mixin altBackground {
+	background-color: #F7F7F7;
+}

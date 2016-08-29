@@ -1,28 +1,28 @@
-.contactItem {
+.followItem {
 	display: inline-block;
 	padding: $container-padding;
 }
 
-.contactList {
+.followList {
 	text-align: center;
 }
 
-#contact {
+#follow {
 	@include containerSpacing;
 }
 
-#contact-section {
+#follow-section {
 	background: #171717;
 	color: #fff;
 }
 
-.contactIcon {
+.followIcon {
 	margin-right: 6px;
 	font-size: $f-size-xl;
 	float: left;
 }
 
-.contactIconName {
+.followIconName {
 	line-height: $f-size-xl;
 	float: left;
 }

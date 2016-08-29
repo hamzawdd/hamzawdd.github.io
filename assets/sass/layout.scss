@@ -41,12 +41,12 @@
 
 body {
   font-family: $fonts;
+  line-height: 1.4;
 }
 
 .section {
 	@include clearAfter;
-	padding-top: 60px;
-	padding-bottom: 40px;
+	padding: 60px 0;
 }
 
 .landingSection {
@@ -57,6 +57,7 @@ body {
 	padding-bottom: 40px;
 	text-align: center;
 	font-size: $f-size-xl;
+	font-weight: 600;
 }
 
 .fit-cover {

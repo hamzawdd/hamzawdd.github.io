@@ -1,8 +1,8 @@
 .navbar {
-	position: fixed;
+	position: absolute;
 	top: 0;
-	left: 0;
-	width: 100%;
+	right: 0;
+	font-size: $f-size-sm;
 }
 
 .navbarContainer, .navbarItemContainer{
@@ -17,7 +17,11 @@
 
 .navItem {
 	float: left;
-	margin: 0 10px;
+	padding: 10px 25px;
+}
+
+.navAction {
+	border: 1px solid black;
 }
 
 .navbarHeader {

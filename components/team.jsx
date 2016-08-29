@@ -38,11 +38,11 @@ var products = [
   { name: "Heather Lockwood", position: "Coach" },
   { name: "Wynnie Young", position: "Coach" },
   { name: "Joshua Yu", position: "Coach" },
-  { name: "Hamza Ahmed", position: "Lifter" },
-  { name: "Carter Ly", position: "Lifter" },
-  { name: "David Hwang", position: "Lifter" },
-  { name: "Sam Ciocys", position: "Lifter" },
-  { name: "Connor O'Neal", position: "Lifter" }
+  { name: "Connor O'Neal", position: "President" },
+  { name: "Carter Ly", position: "Secretary" },
+  { name: "Hamza Ahmed", position: "Social Chair" },
+  { name: "David Hwang", position: "Treasurer" },
+  { name: "Sam Ciocys", position: "Lifter" }
 ];
 
 ReactDOM.render(<ProductList products={products} />, document.getElementById('team'));

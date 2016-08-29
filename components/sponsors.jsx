@@ -6,7 +6,7 @@ var SponsorItem = React.createClass({
         <div className="sponsorName">{this.props.name}</div>
           <div className="sponsorImgContainer">
             <a target="_blank" href={this.props.link}>
-              <img className="img-scaled-wh" id={this.props.id} src={this.props.path}/>
+              <img className="img-scaled-wh sponsorImg" id={this.props.id} src={this.props.path}/>
             </a>
           </div>
       </div>
@@ -38,7 +38,7 @@ var SponsorList = React.createClass({
 });
 
 var sponsors = [
-  { name: "Slingshot", id: "slingshot", path: "assets/img/slingshot.jpg", link: "http://howmuchyabench.net" },
+  { name: "Slingshot", id: "slingshot", path: "assets/img/slingshot.png", link: "http://howmuchyabench.net" },
   { name: "Citadel Nutrition", id: "citadel", path: "assets/img/citadel.jpg", link: "http://citadelnutrition.com" }
 ];
 

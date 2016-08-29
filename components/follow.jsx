@@ -1,9 +1,9 @@
 var ContactItem = React.createClass({
   render: function () {
     return (
-        <div className="contactItem">
-          <i className={this.props.icon + " contactIcon"}></i>
-          <div className="contactIconName">
+        <div className="followItem">
+          <i className={this.props.icon + " followIcon"}></i>
+          <div className="followIconName">
             {this.props.name}
           </div>
         </div>
@@ -24,7 +24,7 @@ var ContactList = React.createClass({
     });
     
     return (
-      <div className="contactList">
+      <div className="followList">
         {contactItems}
       </div>
     );
@@ -36,4 +36,4 @@ var contactItems = [
   { name: "Barbell at Berkeley", icon: "fa fa-facebook" }
 ];
 
-ReactDOM.render(<ContactList contactItems={contactItems} />, document.getElementById('contact'));
+ReactDOM.render(<ContactList contactItems={contactItems} />, document.getElementById('follow'));
