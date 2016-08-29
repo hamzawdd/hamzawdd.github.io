@@ -1,0 +1,29 @@
+.aboutSection {
+	@include containerSpacing;
+	height: 100vh;
+	text-align: center;
+	float: right;
+	width: 50%;
+}
+
+.aboutContent {
+	padding: 40px;
+	text-align: left;
+}
+
+.aboutHeader {
+	font-size: $f-size-xxl;
+	margin-bottom: 10px;
+}
+
+.aboutSubheader {
+	font-size: $f-size-lg;
+}
+
+
+.landingImgContainer {
+	width: 50%;
+	height: 100vh;
+	float: left;
+}
+

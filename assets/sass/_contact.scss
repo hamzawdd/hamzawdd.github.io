@@ -1,0 +1,28 @@
+.contactItem {
+	display: inline-block;
+	padding: $container-padding;
+}
+
+.contactList {
+	text-align: center;
+}
+
+#contact {
+	@include containerSpacing;
+}
+
+#contact-section {
+	background: #171717;
+	color: #fff;
+}
+
+.contactIcon {
+	margin-right: 6px;
+	font-size: $f-size-xl;
+	float: left;
+}
+
+.contactIconName {
+	line-height: $f-size-xl;
+	float: left;
+}

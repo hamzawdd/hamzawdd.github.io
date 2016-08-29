@@ -1,0 +1,20 @@
+#sponsors {
+	@include containerSpacing;
+	text-align: center;
+	display: block;
+	@include clearAfter;
+}
+
+.sponsorCard {
+	width: 50%;
+	float: left;
+}
+
+.sponsorImgContainer {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#citadel {
+	margin-top: 15px;
+}

@@ -1,0 +1,29 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.navbarContainer, .navbarItemContainer{
+	@include clearAfter;
+}
+
+.navbarContainer {
+	margin: 0 auto;
+	padding: $container-padding;
+	@include containerSpacing;
+}
+
+.navItem {
+	float: left;
+	margin: 0 10px;
+}
+
+.navbarHeader {
+	float: left;
+}
+
+.navbarItemContainer {
+	float: right;
+}

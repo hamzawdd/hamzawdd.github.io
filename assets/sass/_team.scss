@@ -1,0 +1,32 @@
+.lifterCard {
+	float: left;
+	width: 33.33%;
+	padding: 20px;
+	text-align: center;
+}
+
+#team {
+	@include clearAfter;
+	@include containerSpacing;
+}
+
+.lifterName {
+	font-size: $f-size-lg;
+	margin-bottom: 6px;
+}
+
+.lifterPosition {
+	font-size: $f-size-sm;
+}
+
+.lifterImgContainer {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.lifterImg {
+	object-fit: cover;
+	border-radius: 50%;
+}

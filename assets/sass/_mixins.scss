@@ -1,0 +1,22 @@
+// Clearfix for floats
+@mixin clearAfter {
+  &:after {
+    clear: both;
+    content: "";
+    height: 0;
+    visibility: hidden;
+    display: block;
+  }
+}
+
+@mixin containerSpacing {
+	margin: 0 auto;
+	max-width: $container-max-width;
+}
+
+@mixin centerContent {
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	height: 100%;
+}
