@@ -171,6 +171,7 @@ body {
 
 .navAction {
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .navbarHeader {
@@ -303,6 +304,8 @@ body {
 .followItem {
   display: inline-block;
   padding: 20px;
+  cursor: pointer;
+  margin: 0 10px;
 }
 
 .followList {
@@ -360,6 +363,27 @@ body {
 
 .sponsorImg {
   margin-top: 15px;
+}
+
+#join {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.paragraph {
+  line-height: 1.4;
+  font-weight: 300;
+  max-width: 700px;
+  margin-bottom: 10px;
+}
+
+.paragraph a {
+  font-weight: 500;
+}
+
+.back {
+  margin-top: 40px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=app.css.map */
