@@ -43,6 +43,7 @@ var products = [
   { name: "Carter Ly", position: "Secretary", img: "assets/img/carter.png" },
   { name: "Hamza Ahmed", position: "Social Chair", img: "assets/img/hamza.png" },
   { name: "David Hwang", position: "Treasurer", img: "assets/img/david.jpeg" },
+  { name: "Sam Ciocys", position: "Lifter", img: "assets/img/sam.jpg" },
   { name: "Sam Ciocys", position: "Lifter", img: "assets/img/sam.jpg" }
 ];
 
